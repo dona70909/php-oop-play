@@ -35,8 +35,8 @@
                     return $result;
                     break;
 
-                case 'mul':
-                    $result = $this->numberOne + $this->numberTwo; 
+                case 'mult':
+                    $result = $this->numberOne * $this->numberTwo; 
                     return $result;
                     break;
                 
