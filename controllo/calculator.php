@@ -28,7 +28,7 @@
                 <div class="text-center">
                     <h1>Operator:</h1>
                     <p class="text-uppercase"><?php echo $calcolatrice->operator ?></p>
-                    <h1>Values and calculation</h1>
+                    <h1>Calculation</h1>
                     <p class="text-uppercase"><?php echo $calcolatrice->numberOne?> <?php echo $calcolatrice->getOperator($operator) ?>
                     <?php echo $calcolatrice->numberTwo ?></p> 
                 </div>     
