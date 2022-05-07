@@ -1,0 +1,11 @@
+
+main {
+    padding: 10rem 0;
+}
+
+.box-green {
+    background-color: green;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
