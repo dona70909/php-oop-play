@@ -46,6 +46,28 @@
             }
         }
 
+        public function getOperator() {
+            switch ($this->operator) {
+                case 'add':
+                    return  "+";
+                    break;
+
+                case 'sub':
+                    return  "-";
+                    break;
+
+                case 'div':
+                    return  "/";
+                    break;
+                case 'mult':
+                    return  "*";
+                    break;        
+                default:
+                    return "error";
+                    break;
+            }
+        }
+
     
     }
 ?>

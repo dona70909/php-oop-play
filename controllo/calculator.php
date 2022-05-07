@@ -29,7 +29,7 @@
                     <h1>Operator:</h1>
                     <p class="text-uppercase"><?php echo $calcolatrice->operator ?></p>
                     <h1>Values and calculation</h1>
-                    <p class="text-uppercase"><?php echo $calcolatrice->numberOne?> <?php echo $calcolatrice->operator ?>
+                    <p class="text-uppercase"><?php echo $calcolatrice->numberOne?> <?php echo $calcolatrice->getOperator($operator) ?>
                     <?php echo $calcolatrice->numberTwo ?></p> 
                 </div>     
                 <div class="text-center">
