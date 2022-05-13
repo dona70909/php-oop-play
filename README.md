@@ -1,3 +1,3 @@
 # php-oop-play
 
-#first oop repo - here a simple calculator
+# first oop repo - here a simple calculator
